@@ -1,0 +1,9 @@
+<h1>Sales Stuff</h1>
+
+<%# Embed a LiveView onto a non-liveview/dead template %>
+<%= live_render(@conn, LiveViewStudioWeb.SalesDashboardLive) %>
+
+<h2>Top Sellers</h2>
+<%= live_render(@conn, LiveViewStudioWeb.CountdownTimer) %>
+
+<h2>Recent Orders</h2>
